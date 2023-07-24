@@ -63,12 +63,12 @@
 				36FF35482A69504B00B39F95 /* AppDelegate.swift */,
 				36FF35512A69504C00B39F95 /* Assets.xcassets */,
 				36FF355C2A6951AF00B39F95 /* ImageIOConverter .swift */,
+				36A26F202A6964F50084DAF0 /* ImageRenderType.swift */,
 				36FF35562A69504C00B39F95 /* Info.plist */,
 				36FF35532A69504C00B39F95 /* LaunchScreen.storyboard */,
 				36FF354E2A69504B00B39F95 /* Main.storyboard */,
 				36FF354A2A69504B00B39F95 /* SceneDelegate.swift */,
 				36FF354C2A69504B00B39F95 /* ViewController.swift */,
-				36A26F202A6964F50084DAF0 /* ImageRenderType.swift */,
 			);
 			path = RamPerformanceApp;
 			sourceTree = "<group>";

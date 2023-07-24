@@ -9,8 +9,8 @@ import UIKit
 
 final class ViewController: UIViewController {
 
-    @IBOutlet private weak var imageViewMountain: UIImageView!
-    @IBOutlet private weak var imageViewEye: UIImageView!
+    @IBOutlet private weak var mountainImageView: UIImageView!
+    @IBOutlet private weak var eyeImageView: UIImageView!
 
     private let imageConverter = ImageIOConverter()
     private let renderType: ImageRenderType = .resized
@@ -20,11 +20,11 @@ final class ViewController: UIViewController {
 
         switch renderType {
         case .traditional:
-            imageViewMountain.image = UIImage(named: "mountain")
-            imageViewEye.image = UIImage(named: "eye")
+            mountainImageView.image = UIImage(named: "mountain")
+            eyeImageView.image = UIImage(named: "eye")
         case .resized:
-            setConvertedImage(name: "mountain", imageView: imageViewMountain)
-            setConvertedImage(name: "eye", imageView: imageViewEye)
+            setConvertedImage(name: "mountain", imageView: mountainImageView)
+            setConvertedImage(name: "eye", imageView: eyeImageView)
         }
     }
 }

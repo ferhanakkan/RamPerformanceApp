@@ -43,8 +43,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="V7L-Da-X46"/>
                     <connections>
-                        <outlet property="imageViewEye" destination="KIV-hX-G6v" id="9a5-8k-54n"/>
-                        <outlet property="imageViewMountain" destination="Yla-Vg-yW6" id="gGi-of-WSd"/>
+                        <outlet property="eyeImageView" destination="KIV-hX-G6v" id="9a5-8k-54n"/>
+                        <outlet property="mountainImageView" destination="Yla-Vg-yW6" id="gGi-of-WSd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8KR-NW-3rP" sceneMemberID="firstResponder"/>
